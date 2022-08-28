@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        tools:layout="@layout/fragment_home"
+        android:name="com.example.baitap1navigation.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_congtruFragment"
+            app:destination="@id/congtruFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_bac2Fragment"
+            app:destination="@id/bac2Fragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_bac1Fragment"
+            app:destination="@id/bac1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bac1Fragment"
+        tools:layout="@layout/fragment_bac1"
+        android:name="com.example.baitap1navigation.Bac1Fragment"
+        android:label="Bac1Fragment" >
+        <action
+            android:id="@+id/action_bac1Fragment_to_ketquaFragment"
+            app:destination="@id/ketquaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bac2Fragment"
+        tools:layout="@layout/fragment_bac2"
+        android:name="com.example.baitap1navigation.Bac2Fragment"
+        android:label="Bac2Fragment" >
+        <action
+            android:id="@+id/action_bac2Fragment_to_ketquaFragment"
+            app:destination="@id/ketquaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/congtruFragment"
+        tools:layout="@layout/fragment_congtru"
+        android:name="com.example.baitap1navigation.CongtruFragment"
+        android:label="CongtruFragment" >
+        <action
+            android:id="@+id/action_congtruFragment_to_ketquaFragment"
+            app:destination="@id/ketquaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ketquaFragment"
+        tools:layout="@layout/fragment_ketqua"
+        android:name="com.example.baitap1navigation.KetquaFragment"
+        android:label="KetquaFragment" >
+        <argument
+            android:name="ketqua"
+            app:argType="string" />
+    </fragment>
+</navigation>

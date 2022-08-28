@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BaiTap1Navigation</string>
+    <string name="phuongTrinhBac2">Phương trình bậc 2</string>
+    <string name="nhap_a">Nhập a</string>
+    <string name="nhap_b">Nhập b</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_congtru_fragment">Cộng trừ nhân chia</string>
+    <string name="title_ketqua_fragment">Kết quả</string>
+    <string name="congtru">Cộng, trừ, nhân, chia</string>
+    <string name="phuongtrinh_bac1">Phương trình bậc 1</string>
+    <string name="phuongtrinh_bac2">Phương trình bậc 2</string>
+    <string name="enter_a">Nhập a</string>
+    <string name="enter_b">Nhập b</string>
+    <string name="enter_c">Nhập c</string>
+    <string name="tinh">Tính</string>
+    <string name="string_toanhoc">Toán học</string>
+    <string name="string_welcome">Welcome</string>
+    <string name="icon_cong">+</string>
+    <string name="icon_nhan">×</string>
+    <string name="icon_tru">-</string>
+    <string name="icon_chia">÷</string>
+</resources>
